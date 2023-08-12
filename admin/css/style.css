@@ -1,0 +1,166 @@
+html {
+  height: 100%;
+}
+
+body {
+  background-color: white;
+  font-family: Verdana, sans-serif;
+}
+
+.container {
+  padding: 2rem 0rem;
+  border-radius: 15px;
+}
+
+h4 {
+  margin: 2rem 0rem 1rem;
+}
+
+table {
+  font-family: futura-pt, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  border-collapse: collapse;
+  border-radius: 15px;
+  /* add this */
+  overflow: hidden;
+}
+table thead {
+  background-color: #000000;
+  color: #ffffff;
+  text-align: center;
+  vertical-align: middle;
+  border-radius: 15px;
+  height: 50px;
+}
+table td {
+  background-color: #eaecee;
+}
+.table-image {
+  td,
+  th {
+    vertical-align: middle;
+  }
+}
+.btn-label {
+  position: relative;
+  left: -12px;
+  display: inline-block;
+  padding: 6px 12px;
+  background: rgba(0, 0, 0, 0.15);
+  border-radius: 3px 0 0 3px;
+}
+.btn-labeled {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+.btn {
+  margin-bottom: 10px;
+}
+.login {
+  background: rgba(30, 29, 31, 1);
+  background: -moz-linear-gradient(
+    -45deg,
+    rgba(30, 29, 31, 1) 0%,
+    rgb(75, 73, 73) 100%
+  );
+  background: -webkit-gradient(
+    left top,
+    right bottom,
+    color-stop(0%, rgba(30, 29, 31, 1)),
+    color-stop(100%, rgb(56, 56, 56))
+  );
+  background: -webkit-linear-gradient(
+    -45deg,
+    rgba(30, 29, 31, 1) 0%,
+    rgb(87, 87, 87) 100%
+  );
+  background: -o-linear-gradient(
+    -45deg,
+    rgba(30, 29, 31, 1) 0%,
+    rgb(165, 159, 160) 100%
+  );
+  background: -ms-linear-gradient(
+    -45deg,
+    rgba(30, 29, 31, 1) 0%,
+    rgb(75, 73, 73) 100%
+  );
+  background: linear-gradient(
+    135deg,
+    rgba(30, 29, 31, 1) 0%,
+    rgb(87, 86, 86) 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e1d1f', endColorstr='#df405a', GradientType=1 );
+  height: 100vh;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.account-login {
+  width: 500px;
+}
+
+.form-control:focus {
+  box-shadow: none;
+}
+
+p a {
+  padding-left: 2px;
+}
+
+.account-login h1 {
+  font-size: 25px;
+  text-align: left;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+.login-form {
+  background: #fff;
+  float: left;
+  width: 100%;
+  padding: 40px;
+  border-radius: 5px;
+}
+
+button.btnsave {
+  width: 100%;
+  background-color: #19191a;
+  font-size: 20px;
+  padding: 11px;
+  color: #fff;
+  border: 0px;
+  margin: 10px 0px 20px;
+}
+
+.btnsave:hover {
+  color: #fff;
+  opacity: 0.8;
+}
+p {
+  float: left;
+  width: 100%;
+  text-align: center;
+  font-size: 14px;
+}
+
+@media (max-width: 767px) {
+  .account-login {
+    width: 90%;
+  }
+}
+
+.msg {
+  margin: 30px auto;
+  padding: 10px;
+  border-radius: 5px;
+  color: #3c763d;
+  background: #dff0d8;
+  border: 1px solid #3c763d;
+  width: 50%;
+  text-align: center;
+}
