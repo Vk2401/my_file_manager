@@ -15,12 +15,16 @@ A PHP-based file manager with an admin dashboard to manage user privileges. The 
 - Included database in the `DB` folder.
 
 ## Screenshots
-<h6>login</h6>
-![Project Screenshots](/Screenshots/s1.png)
-<h6>App</h6>
-![Screenshot 1](/Screenshots/s2.png)
-<h6>Admin Dashboard</h6>
-![Screenshot 2](/Screenshots/s3.png)
+
+### Login
+![Login Screenshot](/Screenshots/s1.png)
+
+### App
+![App Screenshot](/Screenshots/s2.png)
+
+### Admin Dashboard
+![Admin Dashboard Screenshot](/Screenshots/s3.png)
+
 
 ## Installation
 
