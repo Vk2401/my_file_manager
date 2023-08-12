@@ -2,7 +2,7 @@
 
 A PHP-based file manager with an admin dashboard to manage user privileges. The dashboard provides functionality for editing, deleting, and adding files, as well as downloading files with an expiration date. Files set to expire within seven days are highlighted in orange as a warning. The project includes a database located in the DB folder and utilizes the jQuery library and Data Table for enhanced functionality.
 
-![Project Screenshots](/screenshots/s1.png)
+![Project Screenshots](/Screenshots/s1.png)
 
 ## Features
 
@@ -16,8 +16,8 @@ A PHP-based file manager with an admin dashboard to manage user privileges. The 
 
 ## Screenshots
 
-![Screenshot 1](/screenshots/s2.png)
-![Screenshot 2](/screenshots/s3.png)
+![Screenshot 1](/Screenshots/s2.png)
+![Screenshot 2](/Screenshots/s3.png)
 
 ## Installation
 
