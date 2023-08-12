@@ -1,7 +1,5 @@
 # PHP File Manager with Admin Dashboard
 
-[Project Description]
-
 A PHP-based file manager with an admin dashboard to manage user privileges. The dashboard provides functionality for editing, deleting, and adding files, as well as downloading files with an expiration date. Files set to expire within seven days are highlighted in orange as a warning. The project includes a database located in the DB folder and utilizes the jQuery library and Data Table for enhanced functionality.
 
 ![Project Screenshots](/screenshots)
@@ -23,19 +21,19 @@ A PHP-based file manager with an admin dashboard to manage user privileges. The 
 
 ## Installation
 
-1. Clone the repository: `git clone https://github.com/your-username/your-repo.git`
-2. Navigate to the project directory: `cd your-repo`
+1. Clone the repository: `git clone https://github.com/Vk2401/my_file_manager.git`
+2. Navigate to the project directory: `cd my_file_manager`
 3. Import the database from the `DB` folder into your MySQL database.
 4. Configure your database connection settings in `config.php`.
 5. Host the project on a PHP-enabled web server.
+6. <h1>User Name :</h1>admin <h1>PASSSWORD :</h1>admin
 
 ## Usage
 
-1. Access the admin dashboard by navigating to `/admin` in your browser.
-2. Log in using your credentials.
-3. Manage user privileges and files using the provided dashboard interface.
-4. Upload files, set expiration dates, and perform various file operations.
-5. Files expiring within seven days will be highlighted in orange.
+1. Log in using your credentials.
+2. Manage user privileges and files using the provided dashboard interface.
+3. Upload files, set expiration dates, and perform various file operations.
+4. Files expiring within seven days will be highlighted in orange.
 
 ## Contributing
 
@@ -55,5 +53,4 @@ This project is licensed under the [MIT License](LICENSE).
 
 Feel free to reach out if you have any questions, suggestions, or issues!
 
-[Your Name]
-[Your Contact Information]
+Vk2401
