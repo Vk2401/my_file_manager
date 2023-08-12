@@ -26,7 +26,7 @@ A PHP-based file manager with an admin dashboard to manage user privileges. The 
 3. Import the database from the `DB` folder into your MySQL database.
 4. Configure your database connection settings in `config.php`.
 5. Host the project on a PHP-enabled web server.
- <h5>User Name :</h5>admin <h5>PASSSWORD :</h5>admin
+ <b>User Name :</b>admin <b>PASSSWORD :</b>admin
 
 ## Usage
 
